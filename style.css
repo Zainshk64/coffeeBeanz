@@ -135,7 +135,7 @@ nav{
 
 /* about ki img */
 .img{
-    background-image: url(/image/black.jpg);
+    background-image: url(./image/black.jpg);
     background-size: contain;
     background-position: left;
     height: 510px;
@@ -369,7 +369,7 @@ nav{
 .img2{
     height: 400px;
     width: 470px;
-    background-image: url("/image/about-img.png");
+    background-image: url("./image/about-img.png");
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 10px;
