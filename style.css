@@ -69,7 +69,7 @@ nav{
 
 /* home ki img */
 #img{
-    background-image: url("/image/cof.jpg");
+    background-image: url("./image/cof.jpg");
     background-size: contain;
     height: 500px;
     width: 100%;
