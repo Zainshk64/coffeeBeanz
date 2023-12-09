@@ -154,7 +154,7 @@ nav{
     
 }
 .aboutimg{
-    background-image: url(/image/cup3.png);
+    background-image: url(./image/cup3.png);
     background-size: contain;
     background-repeat: no-repeat;
     /* background-color: aqua; */
@@ -242,7 +242,7 @@ nav{
 }
 /* shop image */
 .shopimg{
-    background-image: url(/image/shopimg.jpg);
+    background-image: url(./image/shopimg.jpg);
     background-size: contain;
     background-position:left;
     height: 510px;
@@ -257,7 +257,7 @@ nav{
 }
 /* discout img */
 .discimg{
-    background-image: url(/image/discimg.jpg);
+    background-image: url(./image/discimg.jpg);
     background-size: cover;
     height: 510px;
     width: 1200;
@@ -441,7 +441,7 @@ nav{
     height: 450px;
     width: 510px;
     
-    background-image: url(/image/img_02.png);
+    background-image: url(./image/img_02.png);
     background-size: cover;
     background-repeat: no-repeat;
   
@@ -489,7 +489,7 @@ nav{
     display: flex;
 }
 .cophoto{
-    background-image: url(/image/man.png);
+    background-image: url(./image/man.png);
     background-size:contain ;
     height: 45px;
     width: 45px;
@@ -708,7 +708,7 @@ i:hover{
 }
 
 .midcoffee{
-    background-image: url(/image/midcoffee.jpg);
+    background-image: url(./image/midcoffee.jpg);
     height: 270px;
     width: 100%;
     overflow: hidden;
@@ -717,7 +717,7 @@ i:hover{
 
 }
 .scra{
-    background-image: url(/image/scratch_02.png);
+    background-image: url(./image/scratch_02.png);
     height: 20px;
     width:100%;
     margin-top: -19px;
@@ -726,7 +726,7 @@ i:hover{
 
 }
 .scra1{
-    background-image: url(/image/scratch_01.png);
+    background-image: url(./image/scratch_01.png);
     height: 25px;
     width: 100%;
     margin-top: 220px;
@@ -932,7 +932,7 @@ i:hover{
 
 /* menu items */
 .menubackpic{
-    background-image: url(/image/black2.jpg);
+    background-image: url(./image/black2.jpg);
     height: 1440px;
     width: 100%;
     background-size: cover;
@@ -940,7 +940,7 @@ i:hover{
 }
 /* scra */
 #scra1{
-    background-image: url(/image/scratch_01.png);
+    background-image: url(./image/scratch_01.png);
     height: 1%;
     width: 100%;
    margin-top: 48px;
