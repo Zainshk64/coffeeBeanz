@@ -912,22 +912,27 @@ i:hover{
     font-size: 15px;
 }
 #butt{
-    color: white;
+      color: black;
     height: 40px;
     width: 120px;
     font-size: 16px;
-    background-color:  rgba(24, 23, 23, 0.7);
-   
-    border-top: transparent;
-    border-right: transparent;
-    border-bottom: transparent;
-    border-left: transparent;
+    background: transparent;   
+    border-radius: 6px; 
+    border: 2px solid;
     
 
+}
+#butt a{
+    margin-bottom: 4px;
+    color: black;
 }
 #butt:hover{
     background-color: chocolate;
     
+}
+#butt:hover a{
+    color: white;
+
 }
 
 /* menu items */
@@ -1117,6 +1122,16 @@ ul li a:hover{
     
 
 }
+.clienttext:hover{
+    transition: all ease-in  1s;
+
+    box-shadow: 0px 3px 27px 2px rgba(0,0,0,0.72);
+-webkit-box-shadow: 0px 3px 27px 2px rgba(0,0,0,0.72);
+-moz-box-shadow: 0px 3px 27px 2px rgba(0,0,0,0.72);
+}
+.clientpic img:hover{
+    opacity: 0.74;
+}
 .clienttext .clientpara{
     margin-top: 3%;
     margin-left: 20px;
@@ -1141,6 +1156,9 @@ ul li a:hover{
     rotate: -360deg;
 
 }
+.clienttext .shop .shopname h1{
+    font-size: 30px;
+}
 @media screen and (max-width: 700px) {
     #clienttest .clientpic{
         width: 300px;
@@ -1152,5 +1170,24 @@ ul li a:hover{
     .clientpara .paraitem{
         font-size: 15px;
     }
+	.clienttext{
+        margin-left: 10px;
+       
+    }
+    .clienttext .shop .shopname h1{
+        font-size: 20px;
+    }
+    .clientpara hr{
+        width: 375px ;
+    }
     
+}
+
+/* white img */
+#whiteback .whiteimg{
+    background-image: url("./image/whiteback.jpg");
+    background-size: contain;
+    height: 600px;
+    width: 100%;
+    opacity: 0.7;
 }
