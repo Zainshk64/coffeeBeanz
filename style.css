@@ -1204,8 +1204,26 @@ ul li a:hover{
     width: 42%;
     
 }
-.whiteimg .paraitem{
+/* .whiteimg .paraitem{
     margin-left: 20px;
     width: 38%;
     opacity: 0.8;
+} */
+
+.offertext{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.offertext .shop .paraitem{
+    margin-top: 20px;
+}
+
+.offertext .cafenodimg img{
+    margin-top: 10px;
+   
 }
