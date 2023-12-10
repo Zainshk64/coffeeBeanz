@@ -1182,12 +1182,30 @@ ul li a:hover{
     }
     
 }
+@media screen and(min-width: 300px) {
+    .clienttext{
+        width: auto;
+            
+    }
+    
+}
+
 
 /* white img */
-#whiteback .whiteimg{
+#whiteback{
     background-image: url("./image/whiteback.jpg");
     background-size: contain;
-    height: 600px;
+    height: 600px ;
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.8;
+
+}
+.whiteimg .shop{
+    width: 42%;
+    
+}
+.whiteimg .paraitem{
+    margin-left: 20px;
+    width: 38%;
+    opacity: 0.8;
 }
