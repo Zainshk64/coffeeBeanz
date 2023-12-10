@@ -1195,8 +1195,8 @@ ul li a:hover{
 #whiteback{
     background-image: url("./image/whiteback.jpg");
     background-size: contain;
-    height: 600px ;
-    width: 100%;
+    height: auto ;
+    width: auto;
     opacity: 0.8;
 
 }
@@ -1226,4 +1226,90 @@ ul li a:hover{
 .offertext .cafenodimg img{
     margin-top: 10px;
    
+}
+
+@media screen and (min-width:250px) and (max-width: 800px) {
+    .offertext .shop .shopname{
+        font-size: 20px;
+    }
+    .whiteimg .shop{
+        width: 60%;
+    
+    }
+    .offertext .shop{
+        margin-left: 20px;
+    }
+    .offertext .cafenodimg {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .offertext .cafenodimg img{
+        height: auto;
+        width: 350px;
+    }
+    
+}
+
+/* play img */
+
+.playvideo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+
+}
+.imgv{
+    background: linear-gradient(rgba(0,0,0,0.3), #f57b0078), url(./image/me.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 400px;
+    text-align: center;
+    background-position: center;
+    
+}
+@media screen and (min-width: 260px)and (max-width:800px) {
+    .imgv{
+        height: 280px;
+        width: 300px;
+
+    }
+   
+    
+}
+/* .imgv:hover{
+    opacity: 0.6;
+} */
+
+.outplay:hover .imgv{
+    opacity: 0.6;
+}
+.outplay{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+
+}
+
+.outplay:hover{
+    opacity: 0.6;
+    font-size: 60px;
+    transition: all ease-in 2s;
+    margin-top: -30px;
+    rotate: 360deg;
+
+}
+
+
+.outplay .playicon  a{
+    font-size: 70px;
 }
