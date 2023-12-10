@@ -232,7 +232,7 @@ nav{
 
 /* menu items */
 .menuimg{
-    background-image: url(/image/imgmenu.jpg);
+    background-image: url(./image/imgmenu.jpg);
     background-size: cover;
     background-position: left;
     height: 510px;
