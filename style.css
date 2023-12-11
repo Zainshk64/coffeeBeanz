@@ -1,4 +1,3 @@
-
 /* mavbar */
 *{
     margin: 0;
@@ -1301,16 +1300,144 @@ ul li a:hover{
 
 }
 
+
 .outplay:hover{
     opacity: 0.6;
     font-size: 60px;
-    transition: all ease-in 2s;
-    margin-top: -30px;
+    transition: all ease-in 1s;
     rotate: 360deg;
 
+}
+.outplay:hover .playicon{
+    margin-top: -30px;
 }
 
 
 .outplay .playicon  a{
     font-size: 70px;
+}
+
+/* time table */
+/* tableimg */
+.tableimg{
+    background-image: url(./image/table.webp);
+    height: 100%;
+    width: 400px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+@media screen and (min-width:280px) and (max-width:900px) {
+    .tableimg{
+        width: 100%;
+    }
+  
+    
+}
+
+.timetable{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tableimg .tabletext{
+    text-align: center;
+    padding-top: 20%;
+}
+.tabletext h1 i {
+    color: red;
+}
+
+.phoneicon{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.648);
+}
+.phoneicon i{
+    margin-top: 30%;
+}
+.phoneicon:hover{
+    opacity: 0.5;
+}
+
+
+.addrs{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.timingimg{
+    background-image: url(./image/black2.jpg);
+    height: 400px;
+    width: 550px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.timingimg .timingtext{
+    color: white;
+    text-align: center;
+    
+}
+
+.dayflex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.timingtext .dayflex .time{
+    color: rgba(245, 121, 32, 0.956);
+}
+.timingtext .dayflex:hover{
+    opacity: 0.7;
+    font-weight: bolder;
+    
+}
+.timingtext .dayflex:hover .day{
+
+    text-decoration: underline;
+    
+
+}
+@media screen and (min-width:280px) and (max-width:900px) {
+    
+    .timingimg{
+        height: auto;
+        width: 100%;
+    }
+    .dayflex{
+        font-size: 15px;
+    }
+    
+}
+
+.offerimg{
+    background-image: url(./image/table.webp);
+    height: 100%;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.offertext1{
+    text-align: center;
+
+}
+.offertext1 .offerpic img:hover{
+    opacity: 0.7;
+}
+@media screen and (min-width:280px) and (max-width:900px) {
+    
+    .offerimg{
+        height: auto;
+        width: 100%;
+    }
 }
