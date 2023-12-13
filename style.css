@@ -76,6 +76,7 @@ nav{
    
 
 }
+
 .textin{
     height: 300px;
     width: 400px;
@@ -128,6 +129,7 @@ nav{
     }
     #para1{
         font-size: 1.4rcap ;
+        width: 300px;
     }
     
 }
@@ -379,32 +381,46 @@ nav{
     
 }
 
+.aboutnext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+}
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width:270px) and (max-width: 700px) {
     #abouthead{
         font-size: 27px;
     }
     #aboutpara{
         font-size: 15px;
+        width: 280px;
     }
     #but{
         height: 38px;
         width: 150px;
         font-size: 8px;
     }
+
+    .aboutnext{
+        margin-left: -px;
+    }
     .aboutnext .img5{
-        margin-left: 40px;
-        height: 380px;
-        width: 500px;
+        height: 260px;
+        width: 90%;
     }
     .aboutext{
         padding-top: 20px;
     }
     .paraabout{
         font-size: 15px;
+        width: 200px
     }
     .iconcup{
-        margin-left: 50%;
+        margin-left: -10px;
     }
     .section2{
         margin-left: 15%
@@ -412,6 +428,7 @@ nav{
     }
     .section2 .img2{
         margin-right: 18%;
+
     }
     
     .aboutnext{
@@ -427,15 +444,7 @@ nav{
 
 /* about section with cup icon */
 
-.aboutnext{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    height: auto;
-    width: auto;
-}
+
 .img5{
     margin-top: 20px;
     height: 450px;
@@ -507,6 +516,12 @@ nav{
     color:rgb(248, 139, 60);;
 }
 
+@media screen and (min-width:270px) and (max-width: 700px) {
+    .paraabout{
+        font-size: 15px;
+        width: 290px;
+    }
+}
 
 
 /* section 3 */
@@ -734,6 +749,7 @@ i:hover{
     /* background-color: aqua; */
     
 }
+
 /* ICON SHOP */
 .shop{
     margin-left: 18px; 
@@ -1159,7 +1175,7 @@ ul li a:hover{
 .clienttext .shop .shopname h1{
     font-size: 30px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (min-width:250px) and (max-width: 800px) {
     #clienttest .clientpic{
         width: 300px;
     
@@ -1179,6 +1195,11 @@ ul li a:hover{
     }
     .clientpara hr{
         width: 375px ;
+    }
+    .clientpic img{
+        height: auto;
+        width: 300px;
+        margin-bottom: 40px;
     }
     
 }
