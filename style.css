@@ -236,12 +236,13 @@ nav{
 .menuimg{
     background-image: url(./image/imgmenu.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
     height: 510px;
     width: auto;
     
    
 }
+
 /* shop image */
 .shopimg{
     background-image: url(./image/shopimg.jpg);
@@ -1138,8 +1139,8 @@ ul li a:hover{
     
 
 }
-.clienttext:hover{
- opacity: 0.7;
+.clienttext:hover .shop .shopname{
+    color: chocolate;
 }
 .clientpic img:hover{
     opacity: 0.74;
@@ -1155,6 +1156,12 @@ ul li a:hover{
     margin-top: 8%;
     width: 460px;
     
+}
+.clienttext:hover .clientpara hr{
+    transition: all ease-in 1s;
+    width: 60%;
+    
+
 }
 .clientpara .paraitem img{
     height: 60px;
@@ -1193,7 +1200,7 @@ ul li a:hover{
         font-size: 10px;
     }
     .clientpara hr{
-        width: 300px ;
+        width: 350px ;
     }
     .clientpic img{
         height: auto;
@@ -1466,3 +1473,47 @@ ul li a:hover{
         width: 270px;
     }
 }
+/*  contact part */
+.contactimg{
+    background-image: url(./image/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 510px;
+    width: auto;
+}
+
+.logo{
+    height: auto;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.logo img{
+    height: 400px;
+
+}
+.logo img:hover{
+    height: 420px;
+    opacity: 0.4;
+    transition: all ease 3s;
+}
+@media screen and (min-width:280px) and (max-width:900px) {
+    .logo{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        
+    }
+    .logo img{
+        height: 300px;
+    }
+    .logo img:hover{
+        height: 350px;
+        opacity: 0.4;
+        transition: all ease 3s;
+    }
+    
+}
+
+
+
