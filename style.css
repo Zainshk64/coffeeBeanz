@@ -19,7 +19,6 @@
     height: 100px;
     border-bottom: 1px solid chocolate;
     position: fixed;
-    width: 100%;
     margin-top: -15px;
     background-color: black;
     z-index: 1;
@@ -56,7 +55,14 @@
     }
     .navhead h1{
         font-size: 20px;
+        margin-top: 20px;
     }
+    .navhead{
+        height: 130px;
+        width: 100%;
+    }
+    
+   
     
 }
 
@@ -135,6 +141,9 @@ a {
     #para1 {
         font-size: 1.4rcap;
         width: 300px;
+    }
+    #img{
+        width: 100%;
     }
 
 }
@@ -1321,11 +1330,10 @@ ul li a:hover {
 
     .clienttext {
         font-size: 16px;
+        width: 80%;
     }
 
-    #clienttest .clienttext {
-        margin-left: 10px;
-    }
+   
 
     .clientpara .paraitem {
         font-size: 15px;
@@ -1711,7 +1719,7 @@ ul li a:hover {
 
 .footimg {
     background-image: url(./image/black3.jpg);
-    height: 1500px;
+    height: auto;
     width: 100%;
     background-size: cover;
     color: white;
@@ -1791,13 +1799,19 @@ form {
 }
 
 .footmid {
-    display: flx;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
-.div1 {
-    width: 400px;
+.div1{
 
+    width:25%;
 }
+
 
 .logo1 {
     display: flex;
@@ -1813,7 +1827,7 @@ form {
 }
 
 .logo1 h1 {
-    width: 50%;
+    width: 30%;
     margin-left: 17px;
     font-size: 30px;
     font-weight: 500;
@@ -1833,7 +1847,8 @@ form {
 
 .div1 p {
     opacity: 0.8;
-    width: 80%
+    width: auto;
+
 }
 
 /*  */
@@ -1862,8 +1877,8 @@ form {
 }
 
 .div2 .footicon h3{
-    font-size: 29px;
-    margin-bottom: 23px;
+    font-size: 25px;
+    margin-bottom: 29px;
 }
 .div2 .footicon p{
     margin-bottom: 13px;
@@ -1877,8 +1892,121 @@ form {
 }
 
 /*  */
+.div3{
+    width: auto;
 
-.div3 .timee h3{
-    font-size: 29px;
-    margin-bottom: 23px;
 }
+.div3 .timee h3{
+    font-size: 25px;
+    margin-bottom: 29px;
+}
+
+
+.div3 .timee pre:hover{
+    opacity: 0.6;
+}
+
+.div4{
+    /* background-color: aquamarine; */
+    margin-top: 2%;
+    height: auto;
+    width: auto;
+
+}
+.div4 .news h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.newsflex{
+    display: flex;
+    margin-left: 5px;
+
+    align-content: center;
+    align-items: center;
+    
+}
+.newsflex:hover img{
+    opacity: 0.6;
+
+}
+.newsflex .newstext{
+    margin-top: 4px;
+    margin-left: 20px;
+    width: 70%;
+    font-size: 10px;
+}
+.newsflex .newstext p{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.newsflex .newstext a:hover{
+    color: antiquewhite;
+    text-decoration: underline;
+}
+.newsflex .newstext p:hover{
+    margin-top: 10px;
+    color: rgb(241, 119, 32);
+    transition: all ease 1s;
+
+}
+
+.footimg .footlast {
+    
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    height: 80px;
+    
+} 
+.footimg .footlast hr{
+    opacity: 0.4;
+}
+.footimg .footlast p{
+    text-align: center;
+    margin-top: 10px;
+    z-index: 10;
+    font-size: 17px;
+}
+.footimg .footlast p a:hover{
+    color: chocolate;
+    text-decoration: line-through;
+}
+@media screen and (min-width: 270px) and (max-width:700px) {
+    .footimg{
+        height: auto;
+        width: 100%;
+    }
+    .footimg .div1{
+        font-size: 16px ;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .footimg .div2{
+        margin-top: 20%;
+        width: 100%;
+        margin-left: 10px;
+
+    }
+    .footimg .div3{
+        width: 100%;
+        margin-top: 20%;
+        margin-left: 10px;
+
+
+    }
+    .footimg .div4{
+        width: 100%;
+        margin-top: 20%;
+        margin-left: 10px;
+        height: 300px;
+
+
+
+    }
+    .footimg .footlast{
+        height: 80px;
+    }
+}
+/* ok */
