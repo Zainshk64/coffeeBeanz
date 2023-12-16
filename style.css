@@ -11,65 +11,53 @@
 }
 
 
-nav {
-    border-bottom: 3px solid #754c0f;
 
-}
-
-.navhead {
-    height: 80px;
-    width: auto;
-    background-color: rgba(59, 51, 43, 0.932);
-    color: white;
-    background-color: transparent;
-
-
-}
-
-#head1 {
+.navhead{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
-    align-content: center;
+    height: 100px;
+    border-bottom: 1px solid chocolate;
+    position: fixed;
+    width: 100%;
+    margin-top: -15px;
+    background-color: black;
+    z-index: 1;
+
+}
+.navhead  h1{
+    color: white;
+    font-size: 45px;
+    margin-left: 10PX;
+
+    
+    
+}
+#heada{
+    display: flex;
     flex-wrap: wrap;
     height: auto;
-    width: auto;
+    width: 77%;
+    justify-content:right;
 }
-
-#head1 a {
-    font-size: 18px;
+#heada a{
+    margin-right: 15px ;
     text-decoration: none;
     color: white;
-}
-
-#heada,
-h2 {
-    position: absolute;
-    right: 50px;
-    top: 12px;
-}
-
-#heada,
-a {
     text-transform: capitalize;
-    margin-top: 18px;
-    margin-left: 15px;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
 
 }
-
-.navhead h2 {
-    font-weight: 900;
-    position: absolute;
-    left: 27px;
-    font-size: 45px;
-
-
+#heada a:hover{
+    color: chocolate
 }
-
-#heada a:hover {
-    color: rgb(248, 139, 60);
+@media screen and(min-width: 270px) and (max-width:800px) {
+    #heada{
+        flex-direction: column;
+    }
+    .navhead h1{
+        font-size: 20px;
+    }
+    
 }
 
 
@@ -114,8 +102,7 @@ a {
     color: white;
     height: 50px;
     width: 160px;
-    font-size: 16px;
-    background-color: rgba(24, 23, 23, 0.932);
+    background-color: rgba(24, 23, 23, 0.861);
 
     border-top: transparent;
     border-right: transparent;
@@ -127,9 +114,11 @@ a {
 
 #but,
 a {
+   
     color: white;
     text-decoration: none;
-    margin-right: 7px;
+    font-size: 20px;
+    margin-left: -1px;
 }
 
 #but:hover {
@@ -1046,6 +1035,7 @@ i:hover {
     border: 2px solid;
 
 
+
 }
 
 #butt a {
@@ -1709,7 +1699,8 @@ ul li a:hover {
     top: 0px;
 
 }
-.footscr1{
+
+.footscr1 {
     background-image: url(./image/scratch_01.png);
     background-size: cover;
     height: 20px;
@@ -1720,13 +1711,14 @@ ul li a:hover {
 
 .footimg {
     background-image: url(./image/black3.jpg);
-    height: 800px;
+    height: 1500px;
     width: 100%;
     background-size: cover;
     color: white;
 
 }
-.foothead{
+
+.foothead {
     text-align: center;
 }
 
@@ -1737,18 +1729,18 @@ ul li a:hover {
 
 ::placeholder {
     color: rgba(255, 255, 255, 0.688);
-  }
+}
 
 
 #email:focus {
-    border-bottom: 2px solid white ;
+    border-bottom: 2px solid white;
     transition: all ease 3s;
     width: 22%;
     outline: none;
 
 }
 
-form{
+form {
     display: flex;
     justify-content: center;
     color: white;
@@ -1757,8 +1749,8 @@ form{
     align-content: center;
     align-items: center;
 }
-#email
-{
+
+#email {
     color: white;
     background: transparent;
     height: 43px;
@@ -1766,27 +1758,127 @@ form{
     border: none;
     font-size: 17px;
 }
-.foothead form #but{
+
+.foothead form #but {
     margin-left: 10px;
+    font-size: 17px;
+    width: 160px;
+
 }
 
-@media screen and (min-width:280px) and (max-width:900px) 
-{
-    .footimg .foothead h1{
+@media screen and (min-width:280px) and (max-width:800px) {
+    .footimg .foothead h1 {
         font-size: 25px;
     }
-    .foothead form #email{
+
+    .foothead form #email {
         width: 40%;
         height: 40px;
     }
+
     .foothead form #but {
-        height: 40px;
+        height: 50px;
         font-size: 20px;
         margin-left: 20px;
+        width: 150px;
     }
-    .foothead form  #email:focus{
+
+    .foothead form #email:focus {
         transition: all ease 3s;
         width: 30%;
-        
+
     }
+}
+
+.footmid {
+    display: flx;
+}
+
+.div1 {
+    width: 400px;
+
+}
+
+.logo1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.div1 .logo1:hover img {
+    rotate: 370deg;
+    transition: all ease 3s;
+    opacity: 0.6;
+
+}
+
+.logo1 h1 {
+    width: 50%;
+    margin-left: 17px;
+    font-size: 30px;
+    font-weight: 500;
+    color: chocolate;
+}
+
+.div1 img {
+    height: 70px;
+    width: auto;
+    background-color: #c9c3c3;
+    border-radius: 50%;
+
+    rotate: 10deg;
+
+
+}
+
+.div1 p {
+    opacity: 0.8;
+    width: 80%
+}
+
+/*  */
+.mediaicon {
+    display: flex;
+}
+
+.mediaicon p {
+    margin-left: 7px;
+    height: 36px;
+    width: 40px;
+    text-align: center;
+    color: white;
+
+    font-size: 25px;
+    /* background-color: rgba(151, 53, 53, 0.86); */
+
+}
+
+.mediaicon p:hover {
+    background-color: chocolate;
+}
+
+.mediaicon p i {
+    margin-top: 5px;
+}
+
+.div2 .footicon h3{
+    font-size: 29px;
+    margin-bottom: 23px;
+}
+.div2 .footicon p{
+    margin-bottom: 13px;
+
+}
+.div2 .footicon p:hover{
+    opacity: 0.6;
+}
+.div2 .footicon p b{
+    color: rgb(242, 118, 30);
+}
+
+/*  */
+
+.div3 .timee h3{
+    font-size: 29px;
+    margin-bottom: 23px;
 }
