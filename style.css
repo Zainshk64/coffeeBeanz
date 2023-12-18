@@ -2029,3 +2029,173 @@ form {
     }
 }
 /* ok */
+/* coffe.html finish */
+
+/* start about next part */
+
+.midf{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.midf .midh1{
+    width: 50;
+}
+.midf .midh1 h1{
+    text-align: right;
+    height: 150px;
+    /* background-color: #c9c3c3; */
+}
+.midf .midpa{
+    width: 40%;
+    /* background-color: #b9c3c3; */
+
+}
+.midf .midpa p{
+    width: 90%;
+}
+.imgicon{
+    height: 80px;
+    width: 80px;
+    rotate: 45deg;
+    /* background-color: #a9c3c3; */
+    transition: all ease 3s;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.imgicon:hover{
+    background-color: rgb(236, 148, 85);
+}
+
+.imgicon img{
+    rotate: -45deg;
+    margin-top: 20px;
+    margin-left: 18px;
+
+}
+/* @media screen and (max-width:800px) {
+    /* .midf .midpa p{
+    
+        
+    } */
+    /* .midf .midh1 h1{
+        
+
+        width: 100%;
+    }
+     */
+
+
+
+
+.picanddata{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.picme img{
+    height: 500px;
+    margin-left: 10px;
+    border-radius: 8%;
+}
+.textme{
+    width: 50%;
+}
+.textme h1{
+    font-size: 40px;
+    
+}
+.textme p{
+    width: 80%;
+    margin-top: 20px;
+    opacity: 0.7;
+
+}
+.table{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    
+
+}
+.table ol li{
+    /* background-color: #d5ded7; */
+    list-style: none;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 30px;
+    margin-top: 14px;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+.table ol li:hover{
+    border-left: 1px solid black;
+    border-bottom: none;
+
+
+}
+.table ol li a{
+    color: black;
+    font-size: 30px;
+    height: 40px;
+}
+.table ol li a:hover{
+    color: chocolate;
+}
+
+.table #mendetail{
+    margin-left: 50px;
+    width: 45%;
+    height: auto;
+    margin-bottom: 12px;
+
+    
+
+}
+ 
+.table #mendetail .mendatail {
+    border-bottom: 1px solid black;
+
+
+}
+
+
+.table #mendetail p{
+    height: 52px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid black;
+    /* background-color: #c9c3c3; */
+    font-size: 14px;
+}
+
+.table #mendetail .mendetail p:hover{
+    opacity: 0.7;
+    color: chocolate;
+    border-right: 1px solid black;
+    border-bottom: none;
+
+
+
+}
+@media screen and (min-width:280px) and (max-width: 800px) {
+   
+    .picanddata .picme{
+        width: 100%;
+        text-align: center;
+    }
+    .picanddata .picme img{
+        height: 300px;
+
+    }
+    .picanddata .textme h1{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+}
