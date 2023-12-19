@@ -58,6 +58,81 @@
             </div>
         </div>
     </div>
+    <br><br><br><br>
+
+    <div class="faqflex">
+        <div class="faq">
+            <div class="namefaq">
+                <h1>FAQ</h1>
+                
+            </div> 
+            <div class="collaps">
+                <button type="button" class="collapsible">What Is Coffee?</button>
+                <div class="content">
+                    <p>Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+                <br><br>
+                <button type="button" class="collapsible">Getting Started with Coffee</button>
+                <div class="content">
+                    <p>Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+                <br><br>
+                <button type="button" class="collapsible">Do i have the latest version?</button>
+                <div class="content">
+                    <p>Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+                <br><br>
+                <button type="button" class="collapsible">How to migrate my website?</button>
+                <div class="content">
+                    <p>Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <br>
+
+   
+    <br><br>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+    <br>
+
+    <div class="namecont">
+        <h1 >CONTACT US</h1>
+        
+    </div> 
+    <br>
+
+    <div class="contactform">
+
+        <div class="emailicon">
+            <p><i class="fa-regular fa-envelope"></i></p>
+
+        </div>
+
+    </div>
+ 
+
+
 </body>
 
 </html>
