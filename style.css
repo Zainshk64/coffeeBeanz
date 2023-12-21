@@ -204,15 +204,21 @@ a {
     margin-bottom: 6px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     .aboutext #abouth1 {
         font-size: 35px;
     }
 
 
     .icondiv {
-        margin-bottom: -17px;
+        margin-bottom: 224px;
     }
+}
+@media screen and (min-width:200px) {
+    .icondiv {
+        margin-bottom: 290px;
+    }
+
 }
 
 /* menu */
@@ -298,24 +304,34 @@ a {
 }
 
 .disimgtext {
-    height: 200px;
-    width: 450px;
+    height: auto;
+    width: auto;
     color: white;
-    position: absolute;
-    right: -5%;
-    margin-top: 11%;
+    /* position: absolute;
+    right: -5%; */
+
     font-size: 12px;
+    text-align: center;
+
+}
+.disimgtext:hover h4{
+    margin-top: 10%;
+    transition: all ease 2s;
+}
+.disimgtext:hover #percent{
+    margin-top: 10%;
+    transition: all ease 2s;
 
 }
 
 
 
 .disimgtext h3 {
+    height: auto;
+    width: 100%;
     color: chocolate;
     font-size: 30px;
-    width: 300px;
     font-weight: 800;
-    background-color: transparent;
 
 }
 
@@ -327,12 +343,11 @@ a {
 }
 
 #percent {
-    line-height: 1;
     font-size: 55px;
     font-family: "Oswald", sans-serif;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     #percent {
         font-size: 38px;
     }
@@ -349,11 +364,7 @@ a {
         margin-top: 25%;
     }
 
-    .disimgtext:hover {
-        transition: all ease-in 2s;
-        margin-top: 20%;
-
-    }
+  
 
 }
 
@@ -2151,9 +2162,10 @@ form {
 
 .table #mendetail{
     margin-left: 50px;
-    width: 45%;
+    width: 40%;
     height: auto;
     margin-bottom: 12px;
+    /* background-color: #c9c3c3; */
 
     
 
@@ -2161,17 +2173,19 @@ form {
  
 .table #mendetail .mendatail {
     border-bottom: 1px solid black;
+    
 
 
 }
 
 
 .table #mendetail p{
+    width: auto;
     height: 52px;
     margin-bottom: 24px;
     border-bottom: 1px solid black;
     /* background-color: #c9c3c3; */
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .table #mendetail .mendetail p:hover{
@@ -2179,11 +2193,12 @@ form {
     color: chocolate;
     border-right: 1px solid black;
     border-bottom: none;
+    width: 100%;
 
 
 
 }
-@media screen and (min-width:280px) and (max-width: 800px) {
+@media screen and (min-width:250px) and (max-width: 800px) {
    
     .picanddata .picme{
         width: 100%;
@@ -2197,6 +2212,15 @@ form {
         font-size: 25px;
         margin-top: 20px;
     }
+    .table #mendetail .mendatail p {
+        font-size: 50px;
+        width: 10%;
+        
+    }
+    .table #mendetail{
+        width: auto;
+    }
+   
 
 }
 
@@ -2274,7 +2298,7 @@ form {
   .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
-  @media screen and (min-width:200px) and (max-width:800px) {
+  @media screen and (min-width:180px) and (max-width:800px) {
     .namefaq h1{
         font-size: 30px;
         width: 20%;
@@ -2324,13 +2348,79 @@ form {
   /* contact form */
   .contactform{
     height: 600px;
+    width: 100%;
     
-    margin: 10px 60px;
-    background-color:#f0ececed;
+    background-color:#44444429;
+    padding-top: 5%;
 
   }
-  .emailicon{
-    height: 15%;
-    width: 8%;
+  .contactwhite{
+    height: 300px;
+    width:auto;
+    margin: 10px 20px;
+   
+    background-color: rgb(247, 246, 247);
+
+
+}
+
+.maillocationflex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.maildivwithtext{
+    display: flex;
+    padding-top: 5%;
+
+
+
+}
+  .maildivwithtext .emailicon{
+    height: 70px;
+    width: 90px;
+    margin-left: 10px;
     background-color: #ccc;
+  }
+  .maildivwithtext .emailicon p{
+    text-align: center;
+    font-size: 28px;
+  }
+  .maildivwithtext .emailicon p i{
+    margin-top: 21px;
+  }
+  .maildivwithtext .emailicon p i:hover{
+    color: white;
+    transition: all ease 1s
+  }
+
+  .maildivwithtext .insidetext {
+    margin-left: 20px;
+  }
+  .maildivwithtext .insidetext h2{
+    margin-bottom: 8px
+  }
+  .maildivwithtext:hover .insidetext h2{
+    color: rgb(245, 144, 72) ;
+    opacity: 0.8;
+    transition: all ease 0.6s
+
+  }
+
+  @media screen and (min-width:200px) and (max-width:800px) {
+    .maildivwithtext .insidetext h2{
+        font-size: 20px;
+       
+    }
+    .maildivwithtext .insidetext p{
+        font-size: 14px;
+    }
+    .maildivwithtext .emailicon{
+        height: 64px;
+        width: 80px;
+    }
+ 
+    
   }
