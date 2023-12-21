@@ -214,7 +214,7 @@ a {
         margin-bottom: 224px;
     }
 }
-@media screen and (min-width:200px) {
+@media screen and (max-width:200px) {
     .icondiv {
         margin-bottom: 290px;
     }
