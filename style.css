@@ -214,7 +214,7 @@ a {
         margin-bottom: 224px;
     }
 }
-@media screen and (max-width:200px) {
+@media screen and (max-width:500px) {
     .icondiv {
         margin-bottom: 290px;
     }
@@ -2379,7 +2379,7 @@ form {
 
 }
   .maildivwithtext .emailicon{
-    height: 70px;
+    height: 80px;
     width: 90px;
     margin-left: 10px;
     background-color: #ccc;
@@ -2424,3 +2424,26 @@ form {
  
     
   }
+
+  /* input flield contact */
+  
+ 
+  .input1flex input{
+    height: 55px;
+    color: black;
+    width: 40%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
+  }
+  /* .input1flex input::-webkit-input-placeholder{
+    padding-left: 30px;
+  } */
+#fname:focus{
+    border: none;
+    outline: none;
+  }
+input[type="text"]{
+    padding-left: 30px;
+}
