@@ -12,7 +12,7 @@
 
 
 
-.navhead{
+.navhead {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -25,48 +25,55 @@
     z-index: 1;
 
 }
-.navhead  h1{
+
+.navhead h1 {
     color: white;
     font-size: 45px;
     margin-left: 10PX;
 
-    
-    
+
+
 }
-#heada{
+
+#heada {
     display: flex;
     flex-wrap: wrap;
     height: auto;
     width: 75%;
-    justify-content:right;
+    justify-content: right;
 }
-#heada a{
-    margin-right: 15px ;
+
+#heada a {
+    margin-right: 15px;
     text-decoration: none;
     color: white;
     text-transform: capitalize;
 
 }
-#heada a:hover{
+
+#heada a:hover {
     color: chocolate
 }
+
 @media screen and(min-width: 270px) and (max-width:800px) {
-    #heada{
+    #heada {
         flex-direction: column;
     }
-    .navhead h1{
+
+    .navhead h1 {
         font-size: 20px;
         margin-top: 20px;
     }
-    .navhead{
+
+    .navhead {
         margin-top: 20px;
         height: 130px;
-        
+
     }
-    
-    
-   
-    
+
+
+
+
 }
 
 
@@ -123,7 +130,7 @@
 
 #but,
 a {
-   
+
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -145,7 +152,8 @@ a {
         font-size: 1.4rcap;
         width: 300px;
     }
-    #img{
+
+    #img {
         width: 100%;
     }
 
@@ -214,6 +222,7 @@ a {
         margin-bottom: 224px;
     }
 }
+
 @media screen and (max-width:500px) {
     .icondiv {
         margin-bottom: 290px;
@@ -314,11 +323,13 @@ a {
     text-align: center;
 
 }
-.disimgtext:hover h4{
+
+.disimgtext:hover h4 {
     margin-top: 10%;
     transition: all ease 2s;
 }
-.disimgtext:hover #percent{
+
+.disimgtext:hover #percent {
     margin-top: 10%;
     transition: all ease 2s;
 
@@ -364,7 +375,7 @@ a {
         margin-top: 25%;
     }
 
-  
+
 
 }
 
@@ -455,7 +466,7 @@ a {
         font-size: 8px;
     }
 
-    
+
 
     .aboutnext .img5 {
         height: 360px;
@@ -485,10 +496,11 @@ a {
     }
 
     .aboutnext {
-        
+
         margin-left: 20px;
     }
-    .about{
+
+    .about {
         margin-left: -8px;
     }
 
@@ -1344,7 +1356,7 @@ ul li a:hover {
         width: 80%;
     }
 
-   
+
 
     .clientpara .paraitem {
         font-size: 15px;
@@ -1753,7 +1765,7 @@ ul li a:hover {
 
 #email:focus {
     border-bottom: 2px solid white;
-    transition: all ease 3s;
+    transition: all ease 1s;
     width: 22%;
     outline: none;
 
@@ -1807,7 +1819,8 @@ form {
         width: 30%;
 
     }
-    .footimg{
+
+    .footimg {
         width: 100%;
     }
 }
@@ -1821,9 +1834,9 @@ form {
     align-content: center;
 }
 
-.div1{
+.div1 {
 
-    width:25%;
+    width: 25%;
 }
 
 
@@ -1836,12 +1849,14 @@ form {
 .div1 .logo1:hover img {
     rotate: 370deg;
     transition: all ease 3s;
-    
+
 
 }
-.div1:hover p{
+
+.div1:hover p {
     opacity: 0.7;
 }
+
 .logo1 h1 {
     width: 30%;
     margin-left: 17px;
@@ -1892,45 +1907,49 @@ form {
     margin-top: 5px;
 }
 
-.div2:hover h3{
+.div2:hover h3 {
     color: rgb(241, 119, 32);
 }
 
-.div2 .footicon h3{
+.div2 .footicon h3 {
     font-size: 25px;
     margin-bottom: 29px;
 }
-.div2 .footicon p{
+
+.div2 .footicon p {
     margin-bottom: 13px;
 
 }
-.div2 .footicon p:hover{
+
+.div2 .footicon p:hover {
     opacity: 0.6;
 }
-.div2 .footicon p b{
+
+.div2 .footicon p b {
     color: rgb(242, 118, 30);
 }
 
 /*  */
-.div3{
+.div3 {
     width: auto;
 
 }
-.div3:hover h3{
+
+.div3:hover h3 {
     color: rgb(241, 119, 32);
 }
 
-.div3 .timee h3{
+.div3 .timee h3 {
     font-size: 25px;
     margin-bottom: 29px;
 }
 
 
-.div3 .timee pre:hover{
+.div3 .timee pre:hover {
     opacity: 0.6;
 }
 
-.div4{
+.div4 {
     /* background-color: aquamarine; */
     margin-top: 4%;
     height: auto;
@@ -1938,43 +1957,51 @@ form {
     margin-left: 16px;
 
 }
-.div4:hover h3{
+
+.div4:hover h3 {
     color: rgb(241, 119, 32);
 
 
 }
-.div4 .news h3{
+
+.div4 .news h3 {
     font-size: 25px;
     margin-bottom: 10px;
-    
+
 }
-.newsflex{
+
+.newsflex {
     display: flex;
     margin-left: 5px;
 
     align-content: center;
     align-items: center;
-    
+
 }
-.newsflex:hover img{
+
+.newsflex:hover img {
     opacity: 0.6;
 
 }
-.newsflex .newstext{
+
+.newsflex .newstext {
     margin-top: 4px;
     margin-left: 20px;
     width: 70%;
     font-size: 10px;
 }
-.newsflex .newstext p{
+
+.newsflex .newstext p {
     margin-top: 5px;
     font-size: 12px;
 }
-.newsflex .newstext a:hover{
+
+.newsflex .newstext a:hover {
     color: antiquewhite;
     text-decoration: underline;
 }
-.newsflex .newstext p:hover{
+
+.newsflex .newstext p:hover {
     margin-top: 10px;
     color: rgb(241, 119, 32);
     transition: all ease 1s;
@@ -1982,51 +2009,59 @@ form {
 }
 
 .footimg .footlast {
-    
+
     width: 80%;
     margin: auto;
     position: relative;
     top: 10%;
     height: 80px;
-    
-} 
-.footimg .footlast hr{
+
+}
+
+.footimg .footlast hr {
     opacity: 0.4;
 }
-.footimg .footlast p{
+
+.footimg .footlast p {
     text-align: center;
     margin-top: 10px;
-    
+
     font-size: 17px;
 }
-.footimg .footlast p a:hover{
+
+.footimg .footlast p a:hover {
     color: chocolate;
     text-decoration: line-through;
 }
+
 @media screen and (min-width: 270px) and (max-width:700px) {
-    .footimg{
+    .footimg {
         height: auto;
         width: 100%;
     }
-    .footimg .div1{
-        font-size: 16px ;
+
+    .footimg .div1 {
+        font-size: 16px;
         width: 100%;
         margin-left: 10px;
     }
-    .footimg .div2{
+
+    .footimg .div2 {
         margin-top: 20%;
         width: 100%;
         margin-left: 10px;
 
     }
-    .footimg .div3{
+
+    .footimg .div3 {
         width: 100%;
         margin-top: 20%;
         margin-left: 10px;
 
 
     }
-    .footimg .div4{
+
+    .footimg .div4 {
         width: 100%;
         margin-top: 20%;
         margin-left: 10px;
@@ -2035,37 +2070,44 @@ form {
 
 
     }
-    .footimg .footlast{
+
+    .footimg .footlast {
         height: 80px;
     }
 }
+
 /* ok */
 /* coffe.html finish */
 
 /* start about next part */
 
-.midf{
+.midf {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.midf .midh1{
+
+.midf .midh1 {
     width: 50;
 }
-.midf .midh1 h1{
+
+.midf .midh1 h1 {
     text-align: right;
     height: 150px;
     /* background-color: #c9c3c3; */
 }
-.midf .midpa{
+
+.midf .midpa {
     width: 40%;
     /* background-color: #b9c3c3; */
 
 }
-.midf .midpa p{
+
+.midf .midpa p {
     width: 90%;
 }
-.imgicon{
+
+.imgicon {
     height: 80px;
     width: 80px;
     rotate: 45deg;
@@ -2073,24 +2115,26 @@ form {
     transition: all ease 3s;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+
 }
-.imgicon:hover{
+
+.imgicon:hover {
     background-color: rgb(236, 148, 85);
 }
 
-.imgicon img{
+.imgicon img {
     rotate: -45deg;
     margin-top: 20px;
     margin-left: 18px;
 
 }
+
 /* @media screen and (max-width:800px) {
     /* .midf .midpa p{
     
         
     } */
-    /* .midf .midh1 h1{
+/* .midf .midh1 h1{
         
 
         width: 100%;
@@ -2100,41 +2144,47 @@ form {
 
 
 
-.picanddata{
+.picanddata {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 
 }
-.picme img{
+
+.picme img {
     height: 500px;
     margin-left: 10px;
     border-radius: 8%;
 }
-.textme{
+
+.textme {
     width: 50%;
 }
-.textme h1{
+
+.textme h1 {
     font-size: 40px;
-    
+
 }
-.textme p{
+
+.textme p {
     width: 80%;
     margin-top: 20px;
     opacity: 0.7;
 
 }
-.table{
+
+.table {
     display: flex;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
     height: auto;
     width: auto;
-    
+
 
 }
-.table ol li{
+
+.table ol li {
     /* background-color: #d5ded7; */
     list-style: none;
     height: 45px;
@@ -2145,41 +2195,44 @@ form {
     border-bottom: 1px solid black;
 
 }
-.table ol li:hover{
+
+.table ol li:hover {
     border-left: 1px solid black;
     border-bottom: none;
 
 
 }
-.table ol li a{
+
+.table ol li a {
     color: black;
     font-size: 30px;
     height: 40px;
 }
-.table ol li a:hover{
+
+.table ol li a:hover {
     color: chocolate;
 }
 
-.table #mendetail{
+.table #mendetail {
     margin-left: 50px;
     width: 40%;
     height: auto;
     margin-bottom: 12px;
     /* background-color: #c9c3c3; */
 
-    
+
 
 }
- 
+
 .table #mendetail .mendatail {
     border-bottom: 1px solid black;
-    
+
 
 
 }
 
 
-.table #mendetail p{
+.table #mendetail p {
     width: auto;
     height: 52px;
     margin-bottom: 24px;
@@ -2188,7 +2241,7 @@ form {
     font-size: 13px;
 }
 
-.table #mendetail .mendetail p:hover{
+.table #mendetail .mendetail p:hover {
     opacity: 0.7;
     color: chocolate;
     border-right: 1px solid black;
@@ -2198,29 +2251,34 @@ form {
 
 
 }
+
 @media screen and (min-width:250px) and (max-width: 800px) {
-   
-    .picanddata .picme{
+
+    .picanddata .picme {
         width: 100%;
         text-align: center;
     }
-    .picanddata .picme img{
+
+    .picanddata .picme img {
         height: 300px;
 
     }
-    .picanddata .textme h1{
+
+    .picanddata .textme h1 {
         font-size: 25px;
         margin-top: 20px;
     }
+
     .table #mendetail .mendatail p {
         font-size: 50px;
         width: 10%;
-        
+
     }
-    .table #mendetail{
+
+    .table #mendetail {
         width: auto;
     }
-   
+
 
 }
 
@@ -2228,16 +2286,18 @@ form {
 /* faq */
 
 
-.faq{
+.faq {
     margin-left: 10%;
 }
-.namefaq{
+
+.namefaq {
     height: 55px;
     width: 50%;
     /* background-color: #c9c3c3; */
     border-bottom: 3px solid rgba(0, 0, 0, 0.074);
 }
-.namefaq h1{
+
+.namefaq h1 {
     height: 55px;
     width: 18%;
     font-size: 40px;
@@ -2245,15 +2305,18 @@ form {
     border-bottom: 3px solid black;
 
 }
-.namefaq h1:hover{
+
+.namefaq h1:hover {
     border-bottom: 5px solid rgb(245, 144, 72);
 
 
 }
-.collaps{
+
+.collaps {
     margin-top: 4%;
     margin-bottom: 4%;
 }
+
 .collapsible {
     background-color: #eee;
     color: #444;
@@ -2265,170 +2328,198 @@ form {
     outline: none;
 
     font-size: 24px;
-  }
-  .content {
+}
+
+.content {
     height: 100px;
     padding: 0 18px;
     display: none;
     overflow: hidden;
     width: 47.1%;
     background-color: #f1f1f1;
-   
-  }
-  .content p{
+
+}
+
+.content p {
     margin-top: 10px;
 
 
-  }
-  .active, .collapsible:hover {
+}
+
+.active,
+.collapsible:hover {
     background-color: #ccc;
     color: white;
     border: 1px solid black;
     transition: all ease 1s;
-  }
+}
 
-  .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
+.collapsible:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: white;
     float: right;
     margin-left: 5px;
     color: white;
-  }
-  .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }
-  @media screen and (min-width:180px) and (max-width:800px) {
-    .namefaq h1{
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+@media screen and (min-width:180px) and (max-width:800px) {
+    .namefaq h1 {
         font-size: 30px;
         width: 20%;
     }
-    .faq{
+
+    .faq {
         margin-top: 15%;
-        width:  100%;
+        width: 100%;
     }
-    .collapsible{
+
+    .collapsible {
         font-size: 16px;
     }
-    .content{
+
+    .content {
         width: 41.4%;
         height: auto;
     }
 
-    
-  }
+
+}
 
 
-  .namecont{
+.namecont {
     height: 55px;
     width: 80%;
     /* background-color: #c9c3c3; */
     border-bottom: 3px solid rgba(0, 0, 0, 0.074);
     margin-left: 10%;
-  }
-  .namecont h1{
+}
+
+.namecont h1 {
     height: 55px;
     width: 30%;
     font-size: 38px;
     margin-left: 5px;
     border-bottom: 3px solid black;
-  }
-  .namecont h1:hover{
+}
+
+.namecont h1:hover {
     border-bottom: 5px solid rgb(245, 144, 72);
 
-  }
-  @media screen and (min-width:200px) and (max-width:900px) {
-    .namecont h1{
+}
+
+@media screen and (min-width:200px) and (max-width:900px) {
+    .namecont h1 {
         width: 50%;
 
         font-size: 25px;
     }
 }
 
-  /* contact form */
-  .contactform{
-    height: 600px;
+/* contact form */
+.contactform {
+    height: 800px;
     width: 100%;
-    
-    background-color:#44444429;
+
+    background-color: #44444429;
     padding-top: 5%;
 
-  }
-  .contactwhite{
-    height: 300px;
-    width:auto;
+}
+
+.contactwhite {
+    height: auto;
+    width: auto;
     margin: 10px 20px;
-   
+
     background-color: rgb(247, 246, 247);
 
 
 }
 
-.maillocationflex{
+.maillocationflex {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
 }
-.maildivwithtext{
+
+.maildivwithtext {
     display: flex;
     padding-top: 5%;
 
 
 
 }
-  .maildivwithtext .emailicon{
+
+.maildivwithtext .emailicon {
     height: 80px;
     width: 90px;
     margin-left: 10px;
     background-color: #ccc;
-  }
-  .maildivwithtext .emailicon p{
+}
+
+.maildivwithtext .emailicon p {
     text-align: center;
     font-size: 28px;
-  }
-  .maildivwithtext .emailicon p i{
+}
+
+.maildivwithtext .emailicon p i {
     margin-top: 21px;
-  }
-  .maildivwithtext .emailicon p i:hover{
+}
+
+.maildivwithtext .emailicon p i:hover {
     color: white;
     transition: all ease 1s
-  }
+}
 
-  .maildivwithtext .insidetext {
+.maildivwithtext .insidetext {
     margin-left: 20px;
-  }
-  .maildivwithtext .insidetext h2{
+}
+
+.maildivwithtext .insidetext h2 {
     margin-bottom: 8px
-  }
-  .maildivwithtext:hover .insidetext h2{
-    color: rgb(245, 144, 72) ;
+}
+
+.maildivwithtext:hover .insidetext h2 {
+    color: rgb(245, 144, 72);
     opacity: 0.8;
     transition: all ease 0.6s
+}
 
-  }
-
-  @media screen and (min-width:200px) and (max-width:800px) {
-    .maildivwithtext .insidetext h2{
+@media screen and (min-width:200px) and (max-width:800px) {
+    .maildivwithtext .insidetext h2 {
         font-size: 20px;
-       
+
     }
-    .maildivwithtext .insidetext p{
+
+    .maildivwithtext .insidetext p {
         font-size: 14px;
     }
-    .maildivwithtext .emailicon{
+
+    .maildivwithtext .emailicon {
         height: 64px;
         width: 80px;
     }
- 
-    
-  }
 
-  /* input flield contact */
-  
- 
-  .input1flex input{
+
+}
+
+/* input flield contact */
+
+.input1flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input1flex input {
     height: 55px;
     color: black;
     width: 40%;
@@ -2436,14 +2527,119 @@ form {
     background-color: #ccc;
     border: none;
     margin-left: 10px;
-  }
-  /* .input1flex input::-webkit-input-placeholder{
+}
+
+/* .input1flex input::-webkit-input-placeholder{
     padding-left: 30px;
   } */
-#fname:focus{
+
+.input1flex #email {
+    height: 55px;
+    color: black;
+    width: 40%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
+}
+
+#fname:focus {
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+}
+
+/* #email1:focus {
+    border-left: 4px solid black;
     border: none;
     outline: none;
-  }
-input[type="text"]{
+} */
+
+
+#fname1:focus {
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+}
+
+#fname2:focus {
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+}
+
+.input1flex #email:focus {
+    border: none;
+    outline: none;
+    border-left: 4px solid black;
+
+
+}
+
+input[type="text"] {
     padding-left: 30px;
+}
+
+input[type="email"] {
+    padding-left: 30px;
+}
+
+textarea[id="fname2"] {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+/*  */
+.inputoption {
+    text-align: center;
+}
+
+.inputoption textarea {
+    color: black;
+    font-size: 20px;
+    width: 80%;
+
+    background-color: #ccc;
+    border: none;
+
+    margin-left: 10px;
+}
+
+
+
+.inputsubj input {
+    height: 55px;
+    color: black;
+    width: 83%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
+}
+
+#smsg {
+    height: 50px;
+    width: 150px;
+    font-size: 17px;
+    background-color: rgb(244, 143, 70);
+    color: white;
+    border: none;
+
+}
+
+#smsg:hover {
+    background-color: #444;
+    transition: all ease 1s;
+
+}
+
+@media screen and(max-width:800px) {
+    .inputoption textarea {
+        width: 60%;
+
+
+    }
+
+
 }
