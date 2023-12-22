@@ -184,16 +184,61 @@
 
 
             </div>
-            <h1>ok</h1>
+            <br><br><br><br>
 
             <div class="inputoption">
 
                 <div class="input1flex">
-                    <input type="text" id="fname" name="fname" placeholder="Your Name"><br><br>
-                    <input type="email" id="email1" name="fname" placeholder="Your Name"><br><br>
-                    
+                    <input type="text" id="fname" name="fname" placeholder="Your Name: "><br><br>
+                    <input type="email" id="email" placeholder="Your Email: " required>
+
                 </div>
+                <br><br>
+
+                <div class="inputsubj">
+                    <input type="text" id="fname1" placeholder="Enter Your Subject: "><br><br>
+
+                </div>
+                <br>
+                <textarea name="messege" id="fname2" rows="10" placeholder="Enter Your Message"></textarea>
+                <br><br><br>
+
+
+                <button  onclick="hello1()" id="smsg">Send Message</button>
+
+                <script>
+                    const fname = document.getElementById("fname");
+                    const email = document.getElementById("email");
+                    const fname1 = document.getElementById("fname1");
+                    const fname2 = document.getElementById("fname2");
+
+                    
+
+                    function hello1() {
+                        if(fname.value == "" || email.value == "" && fname1.value =="" || fname2.value == "" )
+                        {
+                            alert("PLEASE Fulfil all Information----")
+                        }
+                        else{
+                            
+                            alert("MESSAGE SEND SUCCESSFULLY:");
+
+                            fname.value = ""
+                            email.value = ""
+                            fname1.value =""
+                            fname2.value =""
+
+                        }
+
+
+                    }
+                </script>
             </div>
+
+            <br><br>
+            <br>
+
+
 
 
 
