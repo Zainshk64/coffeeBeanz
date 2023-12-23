@@ -223,9 +223,9 @@ a {
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:100px) {
     .icondiv {
-        margin-bottom: 290px;
+        margin-bottom: 0px;
     }
 
 }
@@ -2424,7 +2424,7 @@ form {
 
 /* contact form */
 .contactform {
-    height: 800px;
+    height: auto;
     width: 100%;
 
     background-color: #44444429;
@@ -2453,9 +2453,6 @@ form {
 .maildivwithtext {
     display: flex;
     padding-top: 5%;
-
-
-
 }
 
 .maildivwithtext .emailicon {
@@ -2633,13 +2630,29 @@ textarea[id="fname2"] {
     transition: all ease 1s;
 
 }
+.conmap{
+    text-align: center;
+}
+.conmap iframe{
+    width: 90%;
+}
 
-@media screen and(max-width:800px) {
+@media screen and(min-width:200px) and (max-width:800px) {
     .inputoption textarea {
         width: 60%;
-
-
     }
+
+    .input1flex input {
+        width: 90%;
+    }
+
+    .inputsubj input {
+        width: 70%;
+    }
+    .input1flex #email{
+        width: 50%;
+    }
+    
 
 
 }
