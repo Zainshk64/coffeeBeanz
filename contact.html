@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT US</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="/image/icon_01.png">
+    <link rel="icon" type="image/x-icon" href="./image/icon_01.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -54,7 +54,7 @@
 
         <div class="icondiv">
             <div id="divicon">
-                <img src="/image/icon_01.png" alt="icon image">
+                <img src="./image/icon_01.png" alt="icon image">
             </div>
         </div>
     </div>
@@ -131,6 +131,7 @@
     <br>
 
     <div class="contactform">
+        <br>
 
         <div class="contactwhite">
 
@@ -190,6 +191,8 @@
 
                 <div class="input1flex">
                     <input type="text" id="fname" name="fname" placeholder="Your Name: "><br><br>
+                    <br>
+                    <br>
                     <input type="email" id="email" placeholder="Your Email: " required>
 
                 </div>
@@ -204,7 +207,7 @@
                 <br><br><br>
 
 
-                <button  onclick="hello1()" id="smsg">Send Message</button>
+                <button onclick="hello1()" id="smsg">Send Message</button>
 
                 <script>
                     const fname = document.getElementById("fname");
@@ -212,21 +215,43 @@
                     const fname1 = document.getElementById("fname1");
                     const fname2 = document.getElementById("fname2");
 
-                    
+
 
                     function hello1() {
-                        if(fname.value == "" || email.value == "" && fname1.value =="" || fname2.value == "" )
-                        {
-                            alert("PLEASE Fulfil all Information----")
+                        // if(fname.value == "" || email.value == "" && fname1.value =="" || fname2.value == "" )
+                        // {
+                        //     alert("PLEASE Fulfil all Information----")
+                        // }
+                        // else if(fname.value == "" && email.value == "" ){
+                        //     alert("Enter Name or Email")
+                        // }
+                        if (fname.value == "" || email.value == "" && fname1.value == "" || fname2.value == "") {
+                            alert("PLEASE COMPLETE ALL \n INFORMATION - - - - ")
+
                         }
-                        else{
-                            
+                        if (fname.value == "" && email.value == "") {
+                            alert("ENTER YOUR NAME \n AND EMAIL")
+                        }
+                        else if (fname1.value == "" && fname2.value == "") {
+                            alert("ENTER YOUR SUBJECT \n AND MESSAGE")
+
+                        }
+                        else if (fname.value == "" && fname1.value == "") {
+                            alert("ENTER YOUR NAME \n AND SUBJECT")
+
+                        }
+                        else if (email.value == "" && fname2.value == "") {
+                            alert("ENTER EMAIL NAME \n AND SUBJECT")
+
+                        }
+                        else {
+
                             alert("MESSAGE SEND SUCCESSFULLY:");
 
                             fname.value = ""
                             email.value = ""
-                            fname1.value =""
-                            fname2.value =""
+                            fname1.value = ""
+                            fname2.value = ""
 
                         }
 
@@ -236,16 +261,203 @@
             </div>
 
             <br><br>
-            <br>
+            
+            
+
 
 
 
 
 
         </div>
+        <div class="conmap">
+
+            <iframe height="450" frameborder="0"
+            scrolling="no" marginheight="0" marginwidth="0"
+            src="https://maps.google.com/maps?
+            f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;
+            q=1685+Centennial+Way+Corona+California+Riverside+County+92882&amp;
+            ie=UTF8&amp;hnear=1685+Centennial+Way,+Corona,+Riverside,+California+92882&amp;
+            t=m&amp;output=embed">
+            </iframe>
+        </div>
+
+
+        <br>
 
 
     </div>
+    <footer>
+
+
+        <div class="footimg">
+          <div class="footscr"></div>
+    
+          <div class="foothead">
+            <br><br><br>
+            <h1>COFFEE BUILD YOUR <br> FRESH MIND</h1>
+            <br><br><br>
+    
+    
+            <form>
+    
+              <label for="email"></label>
+    
+              <input type="email" id="email" placeholder="Enter Your Email" required>
+              <br>
+              <button onclick="myFunction()" id="but" type="submit">SUBSCRIBE NOW</button>
+    
+              <script>
+    
+    
+                const email1 = document.getElementById("email")
+                function myFunction() {
+                  alert("you can subscribe successfully ");
+                  email1.value = ""
+                }
+    
+    
+              </script>
+    
+            </form>
+    
+    
+          </div>
+          <br> <br>
+    
+          <div class="footmid">
+    
+            <div class="div1">
+              <div class="logo1">
+    
+                <img src="./image/logo1.png" alt="img">
+                <h1>COFFEE BEANZ</h1>
+    
+              </div>
+              <br>
+    
+              <p>Rorem ipsum dolorconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniaminventore veritatis et.orem ipsum dolorconsectetur adipisicing elit, sed do
+                eiusmod tempor incididunt aneye.</p>
+              <br>
+    
+    
+              <div class="mediaicon">
+    
+    
+                <a href="#">
+                  <p><i class="fa-brands fa-facebook-f"></i></p>
+                </a>
+                <a href="#">
+                  <p><i class="fa-brands fa-instagram"></i></p>
+                </a>
+                <a href="#">
+                  <p><i class="fa-brands fa-twitter"></i></p>
+                </a>
+                <a href="#">
+                  <p><i class="fa-brands fa-youtube"></i></p>
+    
+                </a>
+    
+    
+              </div>
+            </div>
+            <br>
+    
+            <div class="div2">
+    
+              <div class="footicon">
+                <h3>CONTACT US</h3>
+    
+    
+                <P><b>ADRESS: </b> 8638 Amarica Stranfod Mailbon Star</P>
+    
+                <p><b>MAIL:</b> Israfilsupol836@gmail.com</p>
+    
+                <p><b>PHONE:</b> +7464 0187 3535 645</p>
+    
+                <p><b>FAX ID:</b> +9 659459 49594</p>
+    
+              </div>
+            </div>
+            <br>
+    
+            <div class="div3">
+              <div class="timee">
+                <h3>OPENING HOURS</h3>
+    
+                <pre>MONDAY                9:00 - 18:00</pre>
+    
+                <pre>TUESDAY                5:00 - 17:00</pre>
+                <pre>WEDNESDAY          6:00 - 16:00</pre>
+                <pre>THURSDAY             7:00 - 15:00</pre>
+                <pre>FRIDAY                    8:00 - 14:00</pre>
+                <pre>SATURDAY              9:00 - 13:00</pre>
+                <pre>SUNDAY                 9:00 - 13:00</pre>
+    
+    
+    
+    
+              </div>
+            </div>
+            <br>
+    
+            <div class="div4">
+    
+              <div class="news">
+                <h3>RECENT NEWS</h3>
+                <br>
+    
+                <div class="newsflex">
+                  <div id="newsimg">
+                    <img src="./image/menu2.png" alt="image" height="70px">
+    
+                  </div>
+                  <br>
+                  <div class="newstext">
+                    <a href="shop.html">BEST SMEEL OF AMERICAN COFFEE</a>
+                    <br>
+                    <p>DECEMBER 30 - 2021</p>
+    
+                  </div>
+    
+                </div>
+                <br>
+                <div class="newsflex">
+                  <div id="newsimg">
+                    <img src="./image/menu7.png" alt="image" height="70px">
+    
+    
+                  </div>
+                  <br>
+                  <div class="newstext">
+                    <a href="shop.html">BEST SMEEL OF AMERICAN COFFEE</a>
+                    <br>
+                    <p>DECEMBER 30 - 2021</p>
+    
+                  </div>
+                  <br>
+    
+                </div>
+                <br>
+    
+    
+    
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="footlast">
+    
+            <hr>
+            <P>Copyright@ 2021 Desing by <a href="#">BEANZ</a></P>
+          </div>
+          <br><br>
+    
+    
+        </div>
+        <div class="footscr1"></div>
+      </footer>
 
 
 
