@@ -2580,12 +2580,21 @@ input[type="text"] {
 input[type="email"] {
     padding-left: 30px;
 }
+input[type="time"] {
+    padding-left: 30px;
+}
+input[type="date"] {
+    padding-left: 30px;
+}
 
 textarea[id="fname2"] {
     padding-left: 30px;
     padding-top: 10px;
 }
 
+input[type="number"] {
+    padding-left: 30px;
+}
 
 /*  */
 .inputoption {
@@ -2655,4 +2664,61 @@ textarea[id="fname2"] {
     
 
 
+}
+
+/* bg reservatiion table */
+
+.bgrtable{
+
+    height: auto;
+    width: 88%;
+    background-color: #44444410;
+    background-position: center;
+    margin: auto;
+}
+.bgrtable h1{
+    padding-top: 5%;
+    font-size: 40px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 5%;
+
+}
+
+.rinputform{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.rinputform #fname{
+    height: 55px;
+    color: black;
+    width: 40%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
+}
+.rinputform #fname:focus{
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+
+}
+.rinputform #email:focus{
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+
+}
+
+
+.rinputform #email{
+    height: 55px;
+    color: black;
+    width: 40%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
 }
