@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MENU</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" type="image/x-icon" href="./image/icon_01.png">
+  <link rel="icon" type="image/x-icon" href="/image/icon_01.png">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -58,7 +58,7 @@
 
     <div class="icondiv">
       <div id="divicon">
-        <img src="./image/icon_01.png" alt="icon image">
+        <img src="/image/icon_01.png" alt="icon image">
       </div>
     </div>
 
@@ -201,7 +201,7 @@
       <div class="item1">
 
         <div class="itempic1">
-          <img src="./image/menu1.jpg" alt="pic" height="140px" width="auto">
+          <img src="/image/menu1.jpg" alt="pic" height="140px" width="auto">
         </div>
         <br>
 
@@ -234,7 +234,7 @@
       <div class="item1">
 
         <div class="itempic1">
-          <img src="./image/menu2.png" alt="pic" height="135px" width="auto">
+          <img src="/image/menu2.png" alt="pic" height="135px" width="auto">
         </div>
         <br>
 
@@ -266,7 +266,7 @@
       <div class="item1">
 
         <div class="itempic1">
-          <img src="./image/menu5.png" alt="pic" height="140px" width="auto">
+          <img src="/image/menu5.png" alt="pic" height="140px" width="auto">
         </div>
         <br>
 
@@ -300,7 +300,7 @@
       <div class="item1">
 
         <div class="itempic1">
-          <img src="./image/menu6.png" alt="pic" height="140px" width="auto">
+          <img src="/image/menu6.png" alt="pic" height="140px" width="auto">
         </div>
         <br>
 
@@ -332,7 +332,7 @@
       <div class="item1">
 
         <div class="itempic1">
-          <img src="./image/menu7.png" alt="pic" height="140px" width="auto">
+          <img src="/image/menu7.png" alt="pic" height="140px" width="auto">
         </div>
         <br>
 
@@ -364,7 +364,7 @@
       <div class="item1">
 
         <div class="itempic1">
-          <img src="./image/menu6.png" alt="pic" height="140px" width="auto">
+          <img src="/image/menu6.png" alt="pic" height="140px" width="auto">
         </div>
         <br>
 
@@ -399,9 +399,114 @@
       <div id="scra1"></div>
 
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ratione vitae fuga ad temporibus beatae
-      deleniti, consequatur ipsam sequi quibusdam, pariatur rem adipisci repellendus totam dignissimos iusto eveniet
-      eligendi maxime!</p>
+    <br><br><br><br>
+   
+  </section>
+
+  <section>
+    <div class="bgrtable">
+
+      <div class="rtabletext">
+        <h1>RESERVE YOUR TABLE</h1>
+      </div>
+
+      <div class="rinputform">
+        <input type="text" name="fname" id="fname" placeholder="Enter Your First Name">
+        <br><br>
+        <input type="text" name="fname" id="fname" placeholder="Enter Your Last Name">
+      
+
+        <!-- <input type="email" name="email" id="email" placeholder="Enter Your email" required> -->
+
+      </div>
+
+      <br><br>
+      <div class="rinputform">
+        <input type="text" name="fame" id="fname" placeholder="Enter Your Number">
+        <br><br>
+        <input type="email" name="email" id="email" placeholder="Enter Your email" required>
+      
+
+
+      </div>
+
+      <br><br>
+      <div class="rinputform">
+        <br><br>
+        <input type="number" name="mail" id="fname" placeholder="Enter Number of Person">
+
+      </div>
+      <br><br>
+      <div class="rinputform">
+        <input type="date" name="fame" id="fname">
+        <br><br>
+        <input type="time" name="email" id="fname">
+
+      </div>
+      <br><br><br><br>
+      <div class="rinputform">
+        <button onclick="hello1()" id="smsg">Book A Table</button>
+        <script>
+          const fname = document.getElementById("fname");
+          const email = document.getElementById("email");
+          const fname1 = document.getElementById("fname1");
+          const fname2 = document.getElementById("fname2");
+
+
+
+          function hello1() {
+              // if(fname.value == "" || email.value == "" && fname1.value =="" || fname2.value == "" )
+              // {
+              //     alert("PLEASE Fulfil all Information----")
+              // }
+              // else if(fname.value == "" && email.value == "" ){
+              //     alert("Enter First Name or Last Name")
+              // }
+              if (fname.value == "" || email.value == "" && fname1.value == "" || fname2.value == "") {
+                  alert("PLEASE COMPLETE ALL \n INFORMATION - - - - ")
+
+              }
+              if (fname.value == "" && email.value == "") {
+                  alert("Enter First Name or \n Last Name")
+              }
+              // else if (fname1.value == "" && fname2.value == "") {
+              //     alert("ENTER YOUR SUBJECT \n AND MESSAGE")
+
+              // }
+              // else if (fname.value == "" && fname1.value == "") {
+              //     alert("ENTER YOUR NAME \n AND SUBJECT")
+
+              // }
+              // else if (email.value == "" && fname2.value == "") {
+              //     alert("ENTER EMAIL NAME \n AND SUBJECT")
+
+              // }
+              else {
+
+                  alert("MESSAGE SEND SUCCESSFULLY:");
+
+                  fname.value = ""
+                  email.value = ""
+                  fname1.value = ""
+                  fname2.value = ""
+
+              }
+
+
+          }
+      </script>
+
+      </div>
+      <br><br><br>
+
+
+
+      
+      
+
+    </div>
+    <br><br>
+    <br>
   </section>
 
 
