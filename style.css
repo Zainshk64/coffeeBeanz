@@ -1088,7 +1088,7 @@ i:hover {
 /* menu items */
 .menubackpic {
     background-image: url(./image/black2.jpg);
-    height: 1441px;
+    height: auto;
     width: 100%;
     background-size: cover;
 
@@ -1126,7 +1126,7 @@ ul {
 }
 
 /* menu media */
-@media screen and (min-width:260px)and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .shop1 p {
         font-size: 14px;
     }
