@@ -400,7 +400,7 @@
 
     </div>
     <br><br><br><br>
-   
+
   </section>
 
   <section>
@@ -413,8 +413,8 @@
       <div class="rinputform">
         <input type="text" name="fname" id="fname" placeholder="Enter Your First Name">
         <br><br>
-        <input type="text" name="fname" id="fname" placeholder="Enter Your Last Name">
-      
+        <input type="text" name="fname" id="lname" placeholder="Enter Your Last Name">
+
 
         <!-- <input type="email" name="email" id="email" placeholder="Enter Your email" required> -->
 
@@ -422,10 +422,10 @@
 
       <br><br>
       <div class="rinputform">
-        <input type="text" name="fame" id="fname" placeholder="Enter Your Number">
+        <input type="text" name="fame" id="fnum" placeholder="Enter Your Number">
         <br><br>
         <input type="email" name="email" id="email" placeholder="Enter Your email" required>
-      
+
 
 
       </div>
@@ -433,14 +433,14 @@
       <br><br>
       <div class="rinputform">
         <br><br>
-        <input type="number" name="mail" id="fname" placeholder="Enter Number of Person">
+        <input type="number" name="mail" id="fnumper" placeholder="Enter Number of Person">
 
       </div>
       <br><br>
       <div class="rinputform">
-        <input type="date" name="fame" id="fname">
+        <input type="date" name="fame" id="fdate">
         <br><br>
-        <input type="time" name="email" id="fname">
+        <input type="time" name="email" id="ftime">
 
       </div>
       <br><br><br><br>
@@ -448,66 +448,253 @@
         <button onclick="hello1()" id="smsg">Book A Table</button>
         <script>
           const fname = document.getElementById("fname");
+          const lname = document.getElementById("lname");
+          const fnum = document.getElementById("fnum");
           const email = document.getElementById("email");
-          const fname1 = document.getElementById("fname1");
-          const fname2 = document.getElementById("fname2");
-
+          const fnumper = document.getElementById("fnumper");
+          const fdate = document.getElementById("fdate");
+          const ftime = document.getElementById("ftime");
 
 
           function hello1() {
-              // if(fname.value == "" || email.value == "" && fname1.value =="" || fname2.value == "" )
-              // {
-              //     alert("PLEASE Fulfil all Information----")
-              // }
-              // else if(fname.value == "" && email.value == "" ){
-              //     alert("Enter First Name or Last Name")
-              // }
-              if (fname.value == "" || email.value == "" && fname1.value == "" || fname2.value == "") {
-                  alert("PLEASE COMPLETE ALL \n INFORMATION - - - - ")
 
-              }
-              if (fname.value == "" && email.value == "") {
-                  alert("Enter First Name or \n Last Name")
-              }
-              // else if (fname1.value == "" && fname2.value == "") {
-              //     alert("ENTER YOUR SUBJECT \n AND MESSAGE")
+            if (fname.value == "" || lname.value == "" && fnum.value == "" || email.value == "" && fnumper.value == "" || fdate.value == "" && ftime.value == "") {
+              alert("PLEASE COMPLETE ALL \n INFORMATION - - - - ")
 
-              // }
-              // else if (fname.value == "" && fname1.value == "") {
-              //     alert("ENTER YOUR NAME \n AND SUBJECT")
+            }
+            if (fname.value == "" || lname.value == "") {
+              alert("Enter First Name or \n Last Name")
+            }
+            else if (fnum.value == "" || email.value == "") {
+              alert("ENTER YOUR NUMBER \n AND EMAIL")
 
-              // }
-              // else if (email.value == "" && fname2.value == "") {
-              //     alert("ENTER EMAIL NAME \n AND SUBJECT")
+            }
+            else if (fnumper.value == "") {
+              alert("ENTER NUMBER OF PERSON \n ")
 
-              // }
-              else {
+            }
+            else if (fnumper.value <= 0) {
+              alert("PLEASE ENTER A VALID NO OF PERSON")
 
-                  alert("MESSAGE SEND SUCCESSFULLY:");
+            }
 
-                  fname.value = ""
-                  email.value = ""
-                  fname1.value = ""
-                  fname2.value = ""
+            else if (fdate.value == "" || ftime.value == "") {
+              alert("ENTER A DATE \n AND TIME ")
 
-              }
+            }
+            else {
+
+              alert("YOU SUBMIT YOUR TABLE RESERVATION SUCCESSFULLY");
+
+              fname.value = ""
+              lname.value = ""
+              fnum.value = ""
+              fnumper.value = ""
+              fdate.value = ""
+              ftime.value = ""
+              email.value = ""
+
+            }
 
 
           }
-      </script>
+        </script>
 
       </div>
       <br><br><br>
 
+      <img src="./image/img_01.jpg" alt="IMG" width="100%">
 
 
-      
-      
+
+
+
+
+
 
     </div>
     <br><br>
     <br>
   </section>
+
+  <footer>
+
+
+    <div class="footimg">
+      <div class="footscr"></div>
+
+      <div class="foothead">
+        <br><br><br>
+        <h1>COFFEE BUILD YOUR <br> FRESH MIND</h1>
+        <br><br><br>
+
+
+        <form>
+
+          <label for="email"></label>
+
+          <input type="email" id="email" placeholder="Enter Your Email" required>
+          <br>
+          <button onclick="myFunction()" id="but" type="submit">SUBSCRIBE NOW</button>
+
+          <script>
+
+
+            const email2 = document.getElementById("email")
+            function myFunction() {
+              if (email2.value = "") {
+                alert("Enter Email Bro")
+              }
+              else {
+                alert("you can subscribe successfully ");
+                email2.value = ""
+
+              }
+            }
+
+
+          </script>
+
+        </form>
+
+
+      </div>
+      <br> <br>
+
+      <div class="footmid">
+
+        <div class="div1">
+          <div class="logo1">
+
+            <img src="./image/logo1.png" alt="img">
+            <h1>COFFEE BEANZ</h1>
+
+          </div>
+          <br>
+
+          <p>Rorem ipsum dolorconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniaminventore veritatis et.orem ipsum dolorconsectetur adipisicing elit, sed do
+            eiusmod tempor incididunt aneye.</p>
+          <br>
+
+
+          <div class="mediaicon">
+
+
+            <a href="#">
+              <p><i class="fa-brands fa-facebook-f"></i></p>
+            </a>
+            <a href="#">
+              <p><i class="fa-brands fa-instagram"></i></p>
+            </a>
+            <a href="#">
+              <p><i class="fa-brands fa-twitter"></i></p>
+            </a>
+            <a href="#">
+              <p><i class="fa-brands fa-youtube"></i></p>
+
+            </a>
+
+
+          </div>
+        </div>
+        <br>
+
+        <div class="div2">
+
+          <div class="footicon">
+            <h3>CONTACT US</h3>
+
+
+            <P><b>ADRESS: </b> 8638 Amarica Stranfod Mailbon Star</P>
+
+            <p><b>MAIL:</b> Israfilsupol836@gmail.com</p>
+
+            <p><b>PHONE:</b> +7464 0187 3535 645</p>
+
+            <p><b>FAX ID:</b> +9 659459 49594</p>
+
+          </div>
+        </div>
+        <br>
+
+        <div class="div3">
+          <div class="timee">
+            <h3>OPENING HOURS</h3>
+
+            <pre>MONDAY                9:00 - 18:00</pre>
+
+            <pre>TUESDAY                5:00 - 17:00</pre>
+            <pre>WEDNESDAY          6:00 - 16:00</pre>
+            <pre>THURSDAY             7:00 - 15:00</pre>
+            <pre>FRIDAY                    8:00 - 14:00</pre>
+            <pre>SATURDAY              9:00 - 13:00</pre>
+            <pre>SUNDAY                 9:00 - 13:00</pre>
+
+
+
+
+          </div>
+        </div>
+        <br>
+
+        <div class="div4">
+
+          <div class="news">
+            <h3>RECENT NEWS</h3>
+            <br>
+
+            <div class="newsflex">
+              <div id="newsimg">
+                <img src="./image/menu2.png" alt="image" height="70px">
+
+              </div>
+              <br>
+              <div class="newstext">
+                <a href="shop.html">BEST SMEEL OF AMERICAN COFFEE</a>
+                <br>
+                <p>DECEMBER 30 - 2021</p>
+
+              </div>
+
+            </div>
+            <br>
+            <div class="newsflex">
+              <div id="newsimg">
+                <img src="./image/menu7.png" alt="image" height="70px">
+
+
+              </div>
+              <br>
+              <div class="newstext">
+                <a href="shop.html">BEST SMEEL OF AMERICAN COFFEE</a>
+                <br>
+                <p>DECEMBER 30 - 2021</p>
+
+              </div>
+              <br>
+
+            </div>
+            <br>
+
+
+
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="footlast">
+
+        <hr>
+        <P>Copyright@ 2021 Desing by <a href="#">BEANZ</a></P>
+      </div>
+      <br><br>
+
+
+    </div>
+    <div class="footscr1"></div>
+  </footer>
+
 
 
 
