@@ -2722,3 +2722,133 @@ input[type="number"] {
     border: none;
     margin-left: 10px;
 }
+.rinputform #fnum{
+    height: 55px;
+    color: black;
+    width: 40%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
+
+}
+.rinputform #fnum:focus{
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+
+}
+/* last name */
+.rinputform #lname{
+    height: 55px;
+    color: black;
+    width: 40%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
+
+}
+.rinputform #lname:focus{
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+
+}
+/* num person */
+.rinputform #fnumper{
+    height: 55px;
+    color: black;
+    width: 40%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
+
+}
+.rinputform #fnumper:focus{
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+
+}
+/* date  */
+.rinputform #fdate{
+    height: 55px;
+    color: black;
+    width: 40%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
+
+}
+.rinputform #fdate:focus{
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+
+}
+/* time */
+.rinputform #ftime{
+    height: 55px;
+    color: black;
+    width: 40%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
+
+}
+.rinputform #ftime:focus{
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+
+}
+
+@media screen and (max-width:800px) {
+
+    .bgrtable h1{
+        margin-bottom: 10%;
+    }
+    .rinputform input{
+        margin-bottom: 5%;
+    }
+    .rinputform #fname{
+        width: 70%;
+        font-size: large;
+
+    }
+    .rinputform #lname{
+        width: 70%;
+        font-size: large;
+
+    }
+    .rinputform #fnum{
+        width: 70%;
+        font-size: large;
+
+    }
+    .rinputform #email{
+        width: 70%;
+        font-size: large;
+
+    }
+    .rinputform #fnumper{
+        width: 60%;
+        font-size: large;
+
+    }
+    .rinputform #fdate{
+        width: 70%;
+        font-size: large;
+        margin-bottom: 5%;
+
+    }
+    .rinputform #ftime{
+        width: 70%;
+        font-size: large;
+
+    }
+}
