@@ -788,12 +788,12 @@ i:hover {
 }
 
 .icon4 {
-    width: 200px;
+    width: 230px;
 }
 
 .iconset {
     height: 60px;
-    width: 200px;
+    width: 250px;
     /* background-color: wheat; */
     margin-top: 10px;
     margin-bottom: 15px;
@@ -1126,7 +1126,7 @@ ul {
 }
 
 /* menu media */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width:900px) {
     .shop1 p {
         font-size: 14px;
     }
@@ -2485,7 +2485,9 @@ form {
 }
 
 .maildivwithtext .insidetext h2 {
-    margin-bottom: 8px
+    margin-bottom: 4px;
+    font-size: large;
+
 }
 
 .maildivwithtext:hover .insidetext h2 {
