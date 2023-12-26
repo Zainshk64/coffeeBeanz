@@ -1838,8 +1838,7 @@ form {
 }
 
 .div1 {
-
-    width: 25%;
+        width: 20%;
 }
 
 
@@ -1882,6 +1881,7 @@ form {
 .div1 p {
     opacity: 0.8;
     width: auto;
+    font-size: 15px;
 
 }
 
@@ -1909,7 +1909,9 @@ form {
 .mediaicon p i {
     margin-top: 5px;
 }
-
+.div2{
+    width: 25%;
+}
 .div2:hover h3 {
     color: rgb(241, 119, 32);
 }
@@ -1935,7 +1937,6 @@ form {
 /*  */
 .div3 {
     width: auto;
-
 }
 
 .div3:hover h3 {
@@ -1954,7 +1955,7 @@ form {
 
 .div4 {
     /* background-color: aquamarine; */
-    margin-top: 4%;
+    margin-top: 3%;
     height: auto;
     width: auto;
     margin-left: 16px;
