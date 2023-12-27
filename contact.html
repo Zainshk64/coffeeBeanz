@@ -196,7 +196,7 @@
                     <input type="email" id="email" placeholder="Your Email: " required>
 
                 </div>
-                <br><br>
+                <br>
 
                 <div class="inputsubj">
                     <input type="text" id="fname1" placeholder="Enter Your Subject: "><br><br>
@@ -229,18 +229,18 @@
                             alert("PLEASE COMPLETE ALL \n INFORMATION - - - - ")
 
                         }
-                        if (fname.value == "" && email.value == "") {
+                        if (fname.value == "" || email.value == "") {
                             alert("ENTER YOUR NAME \n AND EMAIL")
                         }
-                        else if (fname1.value == "" && fname2.value == "") {
+                        else if (fname1.value == "" || fname2.value == "") {
                             alert("ENTER YOUR SUBJECT \n AND MESSAGE")
 
                         }
-                        else if (fname.value == "" && fname1.value == "") {
+                        else if (fname.value == "" || fname1.value == "") {
                             alert("ENTER YOUR NAME \n AND SUBJECT")
 
                         }
-                        else if (email.value == "" && fname2.value == "") {
+                        else if (email.value == "" || fname2.value == "") {
                             alert("ENTER EMAIL NAME \n AND SUBJECT")
 
                         }
