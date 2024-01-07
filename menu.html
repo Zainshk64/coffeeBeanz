@@ -229,6 +229,7 @@
         </div>
 
       </div>
+      <br><br>
       <!-- item 2 -->
 
       <div class="item1">
@@ -462,6 +463,8 @@
               alert("PLEASE COMPLETE ALL \n INFORMATION - - - - ")
 
             }
+
+
             if (fname.value == "" || lname.value == "") {
               alert("Enter First Name or \n Last Name")
             }
@@ -533,20 +536,21 @@
 
           <label for="email"></label>
 
-          <input type="email" id="email" placeholder="Enter Your Email" required>
+          <input type="email" id="email1" class="email1" placeholder="Enter Your Email" required>
           <br>
           <button onclick="myFunction()" id="but" type="submit">SUBSCRIBE NOW</button>
 
           <script>
 
 
-            const email2 = document.getElementById("email")
+            const email2 = document.getElementById("email1");
             function myFunction() {
               if (email2.value == "") {
                 alert("Enter Email Bro")
               }
               else {
                 alert("you can subscribe successfully ");
+
                 email2.value = ""
 
               }
