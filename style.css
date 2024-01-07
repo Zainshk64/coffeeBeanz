@@ -119,6 +119,7 @@
     height: 50px;
     width: 160px;
     background-color: rgba(24, 23, 23, 0.861);
+    cursor: pointer;
 
     border-top: transparent;
     border-right: transparent;
@@ -1065,6 +1066,7 @@ i:hover {
     background: transparent;
     border-radius: 6px;
     border: 2px solid;
+    cursor: pointer;
 
 
 
@@ -1766,7 +1768,7 @@ ul li a:hover {
 }
 
 
-#email:focus {
+#email1:focus {
     border-bottom: 2px solid white;
     transition: all ease 1s;
     width: 22%;
@@ -1784,7 +1786,7 @@ form {
     align-items: center;
 }
 
-#email {
+#email1 {
     color: white;
     background: transparent;
     height: 43px;
@@ -2315,7 +2317,7 @@ form {
 
 
 }
-
+/*  */
 .collaps {
     margin-top: 4%;
     margin-bottom: 4%;
@@ -2330,48 +2332,46 @@ form {
     border: none;
     text-align: left;
     outline: none;
-
     font-size: 24px;
 }
 
 .content {
-    height: 100px;
+    height: 105px;
     padding: 0 18px;
     display: none;
     overflow: hidden;
     width: 47.1%;
-    background-color: #f1f1f1;
+    background-color: #f1f1f163;
 
 }
 
 .content p {
     margin-top: 10px;
-
-
 }
 
-.active,
+
 .collapsible:hover {
     background-color: #ccc;
     color: white;
     border: 1px solid black;
     transition: all ease 1s;
 }
-
-.collapsible:after {
-    content: '\02795';
+.collapsible::after {
+    content: '\2795';
     /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: white;
     float: right;
     margin-left: 5px;
     color: white;
+    
 }
 
-.active:after {
+.active::after {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 }
+
 
 @media screen and (min-width:180px) and (max-width:800px) {
     .namefaq h1 {
@@ -2637,6 +2637,7 @@ input[type="number"] {
     background-color: rgb(244, 143, 70);
     color: white;
     border: none;
+    cursor: pointer;
 
 }
 
