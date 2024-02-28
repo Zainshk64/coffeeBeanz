@@ -21,6 +21,13 @@
 
       <h1>Coffee Beanz</h1>
 
+      <input type="checkbox" id="check">
+      <label for="check" id="icons">
+        <i class="fa-solid fa-xmark" id="close"></i>          
+        <i class="fa-solid fa-bars" id="bar"></i>
+
+      </label>
+
 
       <div id="heada">
         <a href="coffee.html" style="color: chocolate">Home</a>
@@ -67,6 +74,7 @@
 
       </div>
       <div class="collaps">
+        
         <button type="button" class="collapsible">What Is Coffee?</button>
         <div class="content">
           <p>Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
@@ -106,7 +114,8 @@
 
   <br><br>
   <script>
-    var coll = document.getElementsByClassName("collapsible");
+  
+  var coll = document.getElementsByClassName("collapsible");
     var i;
 
     for (i = 0; i < coll.length; i++) {
@@ -121,6 +130,7 @@
           }
         });
     }
+  
   </script>
 
   <br>
